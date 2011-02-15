@@ -4,6 +4,12 @@
  *  Front Controller de test solution utilisation template sans utiliser eval
 */
 
+/**
+ * MODIFICATIONS DU 2011-02-15
+ * 
+ * @author jb
+ * @desc J'ai tout cassé
+ */
 class Controller
 	{
 		/**
@@ -17,7 +23,7 @@ class Controller
 		/**
 		 * Called by constructor, it's the main controller
 		 */
-		private function _run()
+		private function _runMe()
 		{
 			
 			$this->_render();
