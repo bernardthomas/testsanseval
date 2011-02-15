@@ -29,7 +29,7 @@ class Controller
 		private function _render()
 		{
 			$content = 'contenu';
-			echo file_get_contents('../layout.phtml');
+			require_once('../layout.phtml');
 		}
 	}
 	
