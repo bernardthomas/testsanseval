@@ -8,7 +8,7 @@
  * MODIFICATIONS DU 2011-02-15
  * 
  * @author jb
- * @desc J'ai tout cassé
+ * @desc J'ai tout cassï¿½
  */
 class Controller
 	{
@@ -22,8 +22,9 @@ class Controller
 		
 		/**
 		 * Called by constructor, it's the main controller
+		 * 
 		 */
-		private function _runMe()
+		private function _run() // Why did u that ?
 		{
 			
 			$this->_render();
@@ -35,7 +36,7 @@ class Controller
 		private function _render()
 		{
 			$content = 'contenu';
-			require_once('../layout.phtml');
+			require_once'../layout.phtml';
 		}
 	}
 	
